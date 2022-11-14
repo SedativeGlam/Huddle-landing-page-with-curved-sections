@@ -1,0 +1,133 @@
+.footer-illustration-wrapper-topWavy{
+    position: relative;
+    top: 4px;
+    max-width: 100%;
+}
+
+.footer-illustration-wrapper-topWavy > img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.footer-flex{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00252e;
+    color: #ffffff;
+    padding: 100px 130px;
+}
+
+.footer-flex-left{
+margin-right: 100px;
+}
+
+.footer-logo{
+    filter: brightness(0) invert(1);
+    margin-bottom: 10px;
+}
+
+.phone-info{
+    display: flex;
+}
+
+.phone-info > img{
+    object-fit: contain;
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+}
+
+.email-info{
+    display: flex;
+}
+
+.email-info > img{
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.footer-social{
+    margin-top: 50px;
+}
+
+.insta-icon{
+    filter: brightness(0) invert(1);
+    margin: 0 10px;
+}
+
+.footer-flex-right{
+    margin-left: 100px;
+}
+
+.footer-flex-right > p{
+    margin-bottom: 20px;
+}
+
+.footer-form{
+    display: flex;
+}
+
+.footer-input > input{
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 3px;
+    padding: 6px 0;
+}
+
+.footer-button > button{
+    background-color: #ff8fd8;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 3px;
+    padding: 6px 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-illustration-wrapper-topWavy{
+        top: 6px;
+    }
+
+    .footer-flex{
+        flex-direction: column;
+        padding: 20px 20px 40px 20px;
+    }
+
+    .footer-flex-left{
+        order: 2;
+        margin-top: 80px;
+    }
+
+    .footer-flex-right{
+        margin-left: 0;
+    }
+
+    .footer-form{
+        flex-direction: column;
+    }
+
+    .footer-input > input{
+        padding: 8px 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-button{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1028px) {
+    .footer-illustration-wrapper-topWavy{
+        top: 6px;
+    }
+
+    .footer-flex-right{
+        margin-left: 30px;
+    }
+
+    .footer-flex{
+        padding: 100px 50px;
+    }
+}
